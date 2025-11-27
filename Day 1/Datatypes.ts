@@ -1,5 +1,6 @@
 // TypeScript -> Superset of JavaScript adds static typing and type-checking at the compile time
-//               Helps developers to finderrors before running the code
+
+//   Helps developers to find errors before running the code
 
 
 // Structure of the code
@@ -23,7 +24,7 @@ d = 7
 console.log(a.toUpperCase());      // error -> because the type has been changed
 
 
-// 3. void     -> used when function returns nothing
+// 3. void -> used when function returns nothing
 
 function change(): void{
     console.log("Hello ");
