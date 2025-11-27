@@ -2,18 +2,18 @@
 
 // 1. By Parameter type + Return Type
 
-// function hello(name : string): string {
-//     return "Welcome " + name;
-// }
+ function hello(name : string): string {
+    return "Welcome " + name;
+}
 
-// console.log(hello("Zara"))    // op : Welcome Zara
+ console.log(hello("Zara"))    // op : Welcome Zara
 
 // 2. By Default Parameters
 
-// function score(name:string, score : number){
-//     console.log( name + " : " + score )
-// }
-// score("hem",97)            // op : hem : 97
+ function score(name:string, score : number){
+     console.log( name + " : " + score )
+ }
+ score("hem",97)            // op : hem : 97
 
 // 3. By optional parameters (?) -> not compulsory to pass parameters
 
