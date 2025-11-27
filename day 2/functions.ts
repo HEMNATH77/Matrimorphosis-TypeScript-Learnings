@@ -1,4 +1,5 @@
-// Functions - > ensures  1. Proper parameter   2. Proper return type   3. Catch errors before execution
+// Functions - > ensures  
+1. Proper parameter   2. Proper return type   3. Catch errors before execution
 
 // 1. By Parameter type + Return Type
 
