@@ -1,0 +1,47 @@
+Modules -> A file that contains codes and self contained units
+          Each file is a module by default
+          To use code from one module to another we need to export and import
+          variables,functions,classes,interfaces inside it won't leak out unless exported
+
+
+ Export  -> Decides what part of a module is accessible externally
+
+
+1. Named Exports -> Can export multiple members
+
+2. Default Exports -> Can export only one member as default
+
+3. named + default exports -> Can have both named and default exports in a module
+
+
+
+
+
+ Import  -> Used to import the exported members of a module into another module
+
+1. Named Imports -> To import named exports
+
+2. Default Imports -> To import default exports
+
+3. named + default imports -> To import both named and default exports from a module
+
+4. Import all -> To import all the exported members of a module
+
+5. Importing types only -> To import only types from a module (TS 3.8+)
+
+6. Dynamic Imports -> To import modules dynamically (ES2020+)
+
+7. Module Aliases -> To create aliases for module paths (TS 2.0+)
+
+8. Side-effect Imports -> To import a module for its side effects only
+
+9. Type-Only Imports and Exports -> To import/export only types (TS 3.8+)
+
+10. Exporting and Importing with different names -> To export/import members with different names
+
+
+
+
+
+
+
